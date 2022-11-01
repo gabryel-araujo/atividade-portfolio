@@ -64,12 +64,18 @@ header .intro-text .btn-intro {
 main {
   color: #333;
   text-align: center;
+  padding: 3em;
 }
 
 main .service .circle-icon {
   background-color: #fed136;
   color: #fff;
   border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6em;
+  width: 6em;
 }
 
 main .service-description  h1 {
@@ -108,6 +114,8 @@ footer section.copyright i.fa-heart {
 .footer-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  padding: 0 15em;
 }
 
 .intro-text {
@@ -137,6 +145,13 @@ footer section.copyright i.fa-heart {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .social ul {
@@ -173,4 +188,12 @@ li:hover i{
   align-items: center;
   justify-content: center;
   height: 3em;
+}
+
+section .social ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 1em;
 }
